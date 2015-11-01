@@ -53,3 +53,11 @@ v 0.1.3
 v 0.1.5
 
 * Change Code Folding (https://github.com/thehogfather/brackets-code-folding) and Brackets 1.3 (Code Folding)
+
+v 0.1.6 by SandMoshi  
+
+* Changed the styling, mostly colours as described below
+* The line numbers bar (gutter) is now the same colour as the background
+* Changed the line numbers to be the grey that brackets dark uses
+* Made the gutter thinner by removing left-margin
+* Content Text now appears in white (grey formerly)

@@ -9,8 +9,8 @@
 .CodeMirror,
 .CodeMirror .CodeMirror-scroll {
     background: #111;
-    color: #929aa2;}
-.CodeMirror .CodeMirror-scroll .CodeMirror-gutters{background:#2b2a27; border-right:1px solid #3C3F41;}/*Left vertical bar with line count*/
+    color: white;}
+/*.CodeMirror .CodeMirror-scroll .CodeMirror-gutters{background:#2b2a27; border-right:1px solid #3C3F41;}Left vertical bar with line count*/
 
 
 .CodeMirror-scrollbar-filler {height:10px !important; width:10px !important;} /* Corner where scrollbars meet. Width and height MUST be the same as that of scrollbars. Background should be the same as that of the scrollbar track*/
@@ -113,12 +113,12 @@ code {
 
 .CodeMirror-linenumber, .CodeMirror-gutters{
     color: #727272;
-    background-color: #242424;
+    background-color: #111;
 }
 
 .CodeMirror .CodeMirror-linenumber {
-    padding-left: 5px;
-    color: #d14;
+    padding-left: 0px;
+/*    color: #d14;*/
 }
 
 .CodeMirror-activeline-background, .CodeMirror-activeline .CodeMirror-gutter-elt {
@@ -156,7 +156,7 @@ code {
     color: #00a8c6;
 }
 
-.CodeMirror-foldgutter-open::after {/*content: "\25bd";*/ color: #f00;}
+.CodeMirror-foldgutter-open::after {/*content: "\25bd";*/ color: #727272;}
 .CodeMirror-foldmarker {background-color: #00A8C6; border-color: #5C5C5C; color: #ede0ce; padding: 0 10px;}
 
 
